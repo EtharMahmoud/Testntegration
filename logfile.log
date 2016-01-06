@@ -1939,3 +1939,39 @@ Driver info: driver.version: FirefoxDriver
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
 System info: host: 'EtharMahmoud_LT', ip: '192.168.1.5', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_40'
 Driver info: driver.version: FirefoxDriver 
+2016-01-06 19:03:30,344 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:03:30,344 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:03:30,344 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Subscription_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-01-06 19:03:30,344 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:03:30,344 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:03:30,344 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:03:30,360 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:03:30,360 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:03:30,360 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:21:33,975 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:21:33,991 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:21:33,991 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Subscription_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-01-06 19:21:33,991 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:21:33,991 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:21:38,972 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:23:15,499 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:23:23,947 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:23:30,804 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:28:36,824 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:28:36,824 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:28:36,824 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Subscription_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-01-06 19:28:36,824 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:28:36,824 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:28:36,824 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:28:36,824 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:28:36,824 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:28:36,824 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:28:55,414 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:28:55,414 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:28:55,414 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Subscription_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-01-06 19:28:55,414 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:28:55,414 INFO  [Log] **************************************************************************************** 
+2016-01-06 19:28:55,414 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:28:55,430 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:28:55,430 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2016-01-06 19:28:55,430 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 

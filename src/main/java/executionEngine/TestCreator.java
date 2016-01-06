@@ -30,8 +30,8 @@ public class TestCreator {
 			String sRunMode = ExcelUtils.getCellData(iTestcase, Constants.Col_RunMode,Constants.Sheet_TestCases);
 
 
-			PrintWriter stepWriter = new PrintWriter("src\\test\\java\\Test"+sTestCaseID+".java", "UTF-8");
-
+			PrintWriter stepWriter = new PrintWriter("src\\test\\java\\testingScenarios\\Test"+sTestCaseID+".java", "UTF-8");
+			stepWriter.println("package testingScenarios;");
 			stepWriter.println("import java.io.IOException;");
 			stepWriter.println("import org.junit.Before;");
 			stepWriter.println("import org.junit.Test;");
