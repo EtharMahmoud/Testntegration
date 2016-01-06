@@ -37,12 +37,12 @@ public class TestCreator {
 			stepWriter.println("import org.junit.Test;");
 			stepWriter.println("import config.ActionKeywords;");
 			stepWriter.println("public class Test"+sTestCaseID+" {");
-			stepWriter.println("ActionKeywords keywords;");
-			stepWriter.println("@Before");
-			stepWriter.println("public void init() throws IOException");
-			stepWriter.println("{");
-			stepWriter.println("keywords=new ActionKeywords();");
-			stepWriter.println("}");
+			stepWriter.println("	ActionKeywords keywords;");
+			stepWriter.println("	@Before");
+			stepWriter.println("	public void init() throws IOException");
+			stepWriter.println("	{");
+			stepWriter.println("		keywords=new ActionKeywords();");
+			stepWriter.println("	}");
 
 			if (sRunMode.equals("Yes")){
 				Log.startTestCase(sTestCaseID);
@@ -51,8 +51,8 @@ public class TestCreator {
 				bResult=true;
 				String actionKeyword,pageObject,data;
 
-				stepWriter.println(" @Test");
-				stepWriter.println("public void " + sTestCaseID.replace(" ", "_") + "() throws Throwable {");
+				stepWriter.println("	@Test");
+				stepWriter.println("	public void " + sTestCaseID.replace(" ", "_") + "() throws Throwable {");
 				for (;iTestStep<=iTestLastStep;iTestStep++)
 				{
 					actionKeyword = ExcelUtils.getCellData(iTestStep, Constants.Col_ActionKeyword,Constants.Sheet_TestSteps);
@@ -68,7 +68,7 @@ public class TestCreator {
 
 
 				}
-				stepWriter.println("}");
+				stepWriter.println("	}");
 			}
 			stepWriter.println("}");
 			stepWriter.close();						
@@ -79,15 +79,15 @@ public class TestCreator {
 		String strAction = "";
 		if(sActionKeyword.equalsIgnoreCase("navigate"))
 		{
-			stepDefinitions.println("keywords.navigate(\"" +sData+"\");");
+			stepDefinitions.println("		keywords.navigate(\"" +sData+"\");");
 		}
 		else if(sActionKeyword.equalsIgnoreCase("openBrowser"))
 		{
-			stepDefinitions.println("keywords.openBrowser(\"" +sData+"\");");
+			stepDefinitions.println("		keywords.openBrowser(\"" +sData+"\");");
 		}
 		else if(sActionKeyword.equalsIgnoreCase("click"))
 		{
-			strAction = "keywords.click(\"" +sPageObject;
+			strAction = "		keywords.click(\"" +sPageObject;
 			if(sData!= null && !sData.isEmpty())
 				strAction += "\", \"" + sData +"\");";
 			else
@@ -96,11 +96,11 @@ public class TestCreator {
 		}
 		else if(sActionKeyword.equalsIgnoreCase("input"))
 		{
-			stepDefinitions.println("keywords.input(\"" +sPageObject+"\",\""+sData+"\");");
+			stepDefinitions.println("		keywords.input(\"" +sPageObject+"\",\""+sData+"\");");
 		}
 		else if(sActionKeyword.equalsIgnoreCase("checkElementExists"))
 		{
-			strAction = "keywords.checkElementExists(\"" +sPageObject;
+			strAction = "		keywords.checkElementExists(\"" +sPageObject;
 			if(sData!= null && !sData.isEmpty())
 				strAction += "\", \"" + sData +"\");";
 			else
