@@ -1,3 +1,0 @@
-#!/bin/bash
-echo "script running"
-"$JAVA_HOME"/bin/java -jar /AutomationFramework.jar
